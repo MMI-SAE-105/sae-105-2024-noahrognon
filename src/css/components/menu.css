@@ -1,0 +1,147 @@
+.menu {
+    visibility: hidden;
+    display: flex;
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    background-color: #F5F5DC;
+    color: black;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 120px 40px 40px;
+    transform: translateX(100vw);
+    transition: all 0.3s ease-in-out;
+}
+
+.menu[aria-hidden="false"] {
+    transform: translateX(0);
+    visibility: visible;
+}
+
+.menu__link {
+    color: rgb(0, 0, 0);
+    font-family: 'raleway', medium;
+    text-decoration: none;
+    font-size: 24px;
+    display: block;
+    align-items: center;
+}
+
+.menu__link--silent {
+    color: #7b7b7b;
+    font-size: 0.875rem;
+}
+
+.menu__item {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    
+}
+.header__logo-aft {
+    display: block;
+    position: relative;
+    left: 70px;
+    /* Déplace le logo vers la gauche */
+    width: 80px;
+    height: auto;
+    top: 8px;
+}
+.header__title-aft {
+display: block;
+    margin: 0 auto;
+    top: -60px;
+
+    /* Centre horizontalement */
+    width: 80px;
+    /* Ajustez la taille selon votre préférence */
+    height: auto;
+    /* Garde le ratio de l'image */
+    position: relative;
+    /* Changez en 'absolute' si nécessaire */
+    bottom: 20px;
+    /* Ajustez selon l'emplacement désiré */
+}
+.menu__social-network {
+    display: flex;
+    /* Les éléments restent alignés en ligne */
+    gap: 20px;
+    /* Espacement entre les icônes */
+    justify-content: center;
+    /* Centre horizontalement les icônes */
+    margin-top: -35px;
+    /* Ajustez la distance par rapport au haut */
+    margin-bottom: 20px;
+    /* Ajustez la distance par rapport au bas */
+    position: relative;
+    /* Permet de mieux gérer la position */
+}
+.menu__social-network img {
+    width: 40px;
+    /* Ajustez selon vos préférences */
+    height: auto;
+    /* Maintient le ratio de l'image */
+    transition: transform 0.3s ease;
+    /* Ajoute une animation pour un effet au survol */
+}
+
+
+.menu-btn {
+    position: absolute;
+    /* reste absolu */
+    top: 35px;
+    /* alignez-le avec le padding de .header */
+    right: 40px;
+    /* même valeur que le padding de droite du header */
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-btn {
+    background: transparent;
+    /* Supprime tout fond */
+    border: none;
+    /* Supprime toute bordure */
+    padding: 0;
+    /* Supprime les espaces internes */
+    margin: 0;
+    /* Supprime les marges externes */
+}
+.menu-btn__bar,
+.menu-btn__bar::before,
+.menu-btn__bar::after {
+    content: "";
+    background: black;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    transition: all 0.4s ease-in-out;
+}
+
+.menu-btn__bar::before {
+    top: -10px;
+}
+
+.menu-btn__bar::after {
+    top: 10px;
+}
+
+/* Technique pour transformer les 3 barres du bouton de menu en croix
+Ne pas oublier d'ajouter une transition plus haut pour l'animation */
+.menu-btn[aria-expanded="true"] .menu-btn__bar,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(135deg);
+    background: white);
+}
+
+.menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(90deg);
+    top: 0;
+    
+}
+

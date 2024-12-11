@@ -1,0 +1,16 @@
+.header {
+    position: absolute;
+    background-color: #F5F5DC;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: block;
+    z-index: 10;
+}

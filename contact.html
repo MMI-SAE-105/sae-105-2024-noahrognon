@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinémagny</title>
+    <link href="/assets/img/logo.png" sizes="96x96" rel="icon">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a class="header__logo-link" href="/">
+            <img class="header__logo" src="/assets/img/logo.png" alt="Logo Cinémagny" />
+            <h2>Cinémagny</h2>
+        </a>
+
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="index.html">Acceuil</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="festival.html">Le festival</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="programation.html">Notre programme</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="films.html">Les films</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="infopratique.html">Infos pratique</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="invités.html">Nos invités</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <div class="menu__secondaire">
+                <ul class="menu__social-network list-unstyled" aria-label="Social media">
+                    <li>
+                        <a href="#" aria-label="Visiter notre profile Instagram "><img src="/assets/icons/instagram.png"
+                                alt="Icon Instagram" /></a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Visiter notre profile youtube"><img src="/assets/icons/youtube.png"
+                                alt="Icon youtube" /></a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Visiter notre  profile TikTok"><img src="/assets/icons/tiktok.png"
+                                alt="Icon tiktok" /></a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Visiter notre  profile facebook"><img src="/assets/icons/facebook.png"
+                                alt="Icon facebook" /></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main-content">
+    <section class="contact-section">
+        <h2 class="section-title">Contact</h2>
+
+        <form class="contact-form">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" placeholder="Nom">
+
+            <label for="surname">Prénom</label>
+            <input type="text" id="surname" name="surname" placeholder="Prénom">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email">
+
+            <label for="subject">Sujet</label>
+            <input type="text" id="subject" name="subject" placeholder="Sujet">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Message"></textarea>
+
+            <button type="submit" class="submit-button">Envoyer</button>
+        </form>
+
+        <div class="contact-info">
+            <h3 class="info-title">Coordonnées</h3>
+            <p>03 81 67 14 89</p>
+            <p><a href="mailto:cinemagny.contact@gmail.com">cinemagny.contact@gmail.com</a></p>
+            <address>
+                <strong>Bureaux du Festival</strong><br>
+                Cinémagny<br>
+                Hôtel de Ville de Giromagny<br>
+                Place du 11 Novembre,<br>
+                90200 Giromagny, France.
+            </address>
+        </div>
+
+        <div class="follow-us">
+            <h3 class="info-title">Suivre le festival</h3>
+            <div class="social-media">
+                <a href="#"><img src="/assets/icons/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="/assets/icons/facebook.png" alt="YouTube"></a>
+                <a href="#"><img src="/assets/icons/tiktok.png" alt="TikTok"></a>
+                <a href="#"><img src="/assets/icons/facebook.png" alt="Facebook"></a>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div>
+        <img src="/assets/img/logo.png" alt="Logo Cinémagny" style="width: 100px;">
+        <h2>Cinémagny</h2>
+    </div>
+    <div>
+        <a href="mention_legal.html">Mention légal</a><br>
+        <a href="politique_confidentialite.html">Politique de confidentialité</a>
+    </div>
+    <div>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="/assets/icons/instagram.png" alt="Instagram" style="width: 30px;">
+        </a>
+        <a href="https://www.youtube.com" target="_blank">
+            <img src="/assets/icons/youtube.png" alt="YouTube" style="width: 30px;">
+        </a>
+        <a href="https://www.tiktok.com" target="_blank">
+            <img src="/assets/icons/tiktok.png" alt="TikTok" style="width: 30px;">
+        </a>
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="/assets/icons/facebook.png" alt="Facebook" style="width: 30px;">
+        </a>
+    </div>
+</footer>
+
+</html>
