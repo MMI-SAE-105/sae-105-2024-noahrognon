@@ -3,9 +3,9 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : ROGNON
+- PRÉNOM : Noah
+- GROUPE : C2
 - URL du site :
 - URL FIGMA :
 

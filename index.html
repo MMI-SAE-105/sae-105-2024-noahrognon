@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinémagny</title>
+    <link href="/assets/img/logo.png" sizes="96x96" rel="icon">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a class="header__logo-link" href="/">
+            <img class="header__logo" src="/assets/img/logo.png" alt="Logo Cinémagny" />
+            <h2>Cinémagny</h2>
+        </a>
+    
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="index.html">Acceuil</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="festival.html">Le festival</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="programation.html">Notre programme</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="films.html">Les films</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="infopratique.html">Infos pratique</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="invités.html">Nos invités</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <div class="menu__secondaire">
+                <ul class="menu__social-network list-unstyled" aria-label="Social media">
+                    <li>
+                        <a href="#" aria-label="Visiter notre profile Instagram "><img src="/assets/icons/instagram.png"
+                                alt="Icon Instagram" /></a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Visiter notre profile youtube"><img src="/assets/icons/youtube.png"
+                                alt="Icon youtube" /></a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Visiter notre  profile TikTok"><img src="/assets/icons/tiktok.png"
+                                alt="Icon tiktok" /></a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Visiter notre  profile facebook"><img src="/assets/icons/facebook.png" 
+                            alt="Icon facebook" /></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="hero hero--home">
+            <h1 class="hero__title hero__title--home">Cinémagny</h1>
+            <p class="hero__chapo">
+                Votre festival de cinéma à Giromany du 12 au 16 novembre
+            </p>
+            <button class="hero__btn">Je réserve mes billets !</button>
+        </div>
+    <section class="section">
+        <h2>Qui sommes-nous ?</h2>
+        <p>Cinémagny est un festival dédié au cinéma indépendant, offrant une sélection variée de longs-métrages,
+            courts-métrages, documentaires et films d'animation. Le festival met à l'honneur des réalisateurs émergents et
+            s'engage à promouvoir l'écoresponsabilité et l'éducation à travers le cinéma.</p>
+        <a href="#" class="button">
+            <span>&#x2794;</span> Je veux en savoir plus
+        </a>
+    </section>
+    
+    <section class="section">
+        <h2>Explorez le Programme</h2>
+        <p>Découvrez la programmation complète du festival : des projections de films aux ateliers et conférences. Filtrez
+            par date ou type d'événement pour ne rien manquer.</p>
+        <a href="#" class="button">
+            <span>&#x2794;</span> Voir le programme
+        </a>
+    </section>
+    <section class="section">
+        <h2>Infos pratiques</h2>
+        <p>Le festival Cinémagny se tient à Giromagny, dans le Territoire de Belfort, entre montagnes et forêts, offrant un cadre
+        naturel parfait pour une expérience cinématographique unique.</p>
+        <a href="#" class="button">
+            <span>&#x2794;</span> Infos pratiques
+        </a>
+    </section>
+    <section class="section">
+        <h2>Les invités</h2>
+        <p>Découvrez la liste complète des invités du festival, comprenant réalisateurs, acteurs et membres du jury, qui feront de
+        cet événement un moment inoubliable.</p>
+        <a href="#" class="button">
+            <span>&#x2794;</span> Je veut voir les invités
+        </a>
+    </section>
+    <div class="carousel-container">
+        <div class="carousel-content" id="carousel-content">
+            <h2>Nos partenaires</h2>
+            <div class="carousel-item">
+                <h3>Partenaires Privés</h3>
+                <p>Société Générale ou Crédit Agricole - Sponsoring bancaire.</p>
+                <p>Alstom (entreprise locale) - Partenaire industriel.</p>
+                <p>Décathlon Belfort - Partenaire pour des goodies ou activités sportives associées.</p>
+                <p>Fromagerie Milleret (producteur régional) - Promotion gastronomique locale.</p>
+            </div>
+            <div class="carousel-item">
+                <h3>Partenaires Médias</h3>
+                <p>France 3 Bourgogne-Franche-Comté - Couverture médiatique locale.
+                Le Pays et L’Est Républicain - Presse écrite régionale.
+                Radio France Bleu Belfort-Montbéliard - Partenariat pour la communication.
+                Allociné - Plateforme pour annoncer les films et program</p>
+            </div>
+            <div class="carousel-item">
+                <h3>Partenaires Culturels</h3>
+                <p>CNC (Centre National du Cinéma et de l'image animée) - Aide financière pour le cinéma.
+                Cinémathèque française - Collaboration pour des rétrospectives ou prêts d'œuvres.
+                Scène Nationale de Montbéliard - Partenaire artistique pour des événements.
+                </p>      
+             </div>
+            <div class="carousel-item">
+                <h3>Partenaires Institutionnels</h3>
+                <p>Mairie de Giromagny - Support local et logistique.
+                Conseil départemental du Territoire de Belfort - Soutien financier et organisationnel.
+                Région Bourgogne-Franche-Comté - Subventions régionales pour la culture.
+                Office de Tourisme de Belfort et des Vosges du Sud - Promotion touristique.
+                </p>
+            </div>
+        </div>
+        <div class="carousel-nav">
+            <button id="prev">&#8249;</button>
+            <button id="next">&#8250;</button>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <img src="/assets/img/logo.png" alt="Logo Cinémagny" style="width: 100px;">
+            <h2>Cinémagny</h2>
+        </div>
+        <div>
+            <a href="mention_legal.html">Mention légal</a><br>
+            <a href="politique_confidentialite.html">Politique de confidentialité</a>
+        </div>
+        <div>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="/assets/icons/instagram.png" alt="Instagram" style="width: 30px;">
+            </a>
+            <a href="https://www.youtube.com" target="_blank">
+                <img src="/assets/icons/youtube.png" alt="YouTube" style="width: 30px;">
+            </a>
+            <a href="https://www.tiktok.com" target="_blank">
+                <img src="/assets/icons/tiktok.png" alt="TikTok" style="width: 30px;">
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="/assets/icons/facebook.png" alt="Facebook" style="width: 30px;">
+            </a>
+        </div>
+    </footer>
+
+</html>
