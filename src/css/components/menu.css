@@ -25,6 +25,8 @@
     font-size: 24px;
     display: block;
     align-items: center;
+    z-index: 10;
+    margin-bottom: 60px;
 }
 
 .menu__link--silent {
@@ -32,24 +34,21 @@
     font-size: 0.875rem;
 }
 
-.menu__item {
-    margin-bottom: 40px;
-    padding-bottom: 40px;
-    
-}
+
 .header__logo-aft {
     display: block;
     position: relative;
-    left: 70px;
+    left: 45px;
     /* Déplace le logo vers la gauche */
     width: 80px;
     height: auto;
-    top: 8px;
+    top: -50px;
+    z-index: 10;
 }
 .header__title-aft {
 display: block;
     margin: 0 auto;
-    top: -60px;
+    top: -95px;
 
     /* Centre horizontalement */
     width: 80px;
@@ -60,6 +59,8 @@ display: block;
     /* Changez en 'absolute' si nécessaire */
     bottom: 20px;
     /* Ajustez selon l'emplacement désiré */
+    color: black;
+    font-size: 20px;
 }
 .menu__social-network {
     display: flex;
@@ -68,7 +69,7 @@ display: block;
     /* Espacement entre les icônes */
     justify-content: center;
     /* Centre horizontalement les icônes */
-    margin-top: -35px;
+    margin-top: -70px;
     /* Ajustez la distance par rapport au haut */
     margin-bottom: 20px;
     /* Ajustez la distance par rapport au bas */

@@ -8,3 +8,20 @@ menuBtn.addEventListener('click', () => {
     menu.setAttribute('aria-hidden', expanded);
     menu.classList.toggle('active');
 });
+const carouselContent = document.getElementById('carousel-content');
+const prevButton = document.getElementById('prev');
+const nextButton = document.getElementById('next');
+
+prevButton.addEventListener('click', () => {
+    carouselContent.scrollBy({
+        left: -carouselContent.clientWidth,
+        behavior: 'smooth',
+    });
+});
+
+nextButton.addEventListener('click', () => {
+    carouselContent.scrollBy({
+        left: carouselContent.clientWidth,
+        behavior: 'smooth',
+    });
+});

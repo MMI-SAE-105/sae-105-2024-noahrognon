@@ -1,0 +1,48 @@
+
+
+.carousel-container {
+    position: relative;
+}
+
+.carousel-content {
+    display: flex;
+    gap: 16px;
+    overflow-x: scroll;
+    margin-left: 10px;
+    margin-right: 10px;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+}
+
+.carousel-item img {
+    display: block;
+}
+
+.carousel-nav {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.carousel-nav button {
+    width: 2rem;
+    height: 2rem;
+    background: #f0c808;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.carousel-nav #prev {
+    transform: rotate(180deg);
+}

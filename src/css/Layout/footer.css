@@ -1,0 +1,102 @@
+footer {
+    display: flex;
+    /* Active Flexbox pour aligner horizontalement les blocs */
+    flex-direction: column;
+    /* Empile les blocs en colonne */
+    align-items: center;
+    /* Centre horizontalement tout le contenu */
+    padding: 25px 20px;
+    /* Espacement autour du footer */
+    background-color: #a9d0a5;
+    /* Couleur de fond verte */
+    color: #000;
+    /* Texte noir */
+    font-family: 'Poppins', sans-serif;
+    /* Police moderne */
+    max-width: 3000px;
+        /* Limite la largeur maximale */
+        margin: 25 auto;
+        /* Centre le footer horizontalement */
+}
+
+footer div {
+    text-align: center;
+    /* Centre les contenus dans chaque section */
+    margin-bottom: 20px;
+    /* Espacement entre les sections */
+}
+
+footer div:first-child {
+    display: flex;
+    /* Aligne le logo et le titre */
+    align-items: center;
+    /* Centre verticalement */
+    gap: 20px;
+    /* Espacement entre le logo et le texte */
+    border-bottom: 1px solid #ffffff;
+    /* Ligne horizontale sous le premier bloc */
+    padding-bottom: 10px;
+    /* Espace sous la ligne */
+    width: 100%;
+    /* Occupe toute la largeur */
+    justify-content: center;
+    /* Centre horizontalement le contenu */
+}
+
+footer img {
+    width: 70px;
+    /* Taille du logo */
+    height: auto;
+}
+
+footer h2 {
+    color: #000;
+}
+
+footer a {
+    text-decoration: none;
+    /* Supprime le soulignement */
+    color: #000;
+    /* Texte noir */
+    font-size: 13px;
+    /* Taille de texte pour les liens */
+    font-weight: 500;
+    /* Semi-gras */
+    display: block;
+    /* Chaque lien sur une ligne séparée */
+    margin: 5px 0;
+    /* Espacement vertical entre les liens */
+}
+
+footer a:hover {
+    text-decoration: underline;
+    /* Ajoute un soulignement au survol */
+}
+
+footer .social-icons {
+    display: flex;
+    /* Aligne les icônes horizontalement */
+    justify-content: center;
+    /* Centre les icônes */
+    gap: 35px;
+    /* Espacement entre les icônes */
+    border-top: 1px solid #eeeeee;
+    /* Ligne horizontale au-dessus des icônes */
+    padding-top: 10px;
+    /* Espace au-dessus de la ligne */
+    width: 100%;
+    /* Occupe toute la largeur */
+}
+
+footer .social-icons img {
+    width: 40px;
+    /* Taille uniforme des icônes */
+    height: 40px;
+    transition: transform 0.2s ease;
+    /* Animation douce au survol */
+}
+
+footer .social-icons img:hover {
+    transform: scale(1.1);
+    /* Effet de zoom au survol */
+}
