@@ -12,19 +12,21 @@ const carouselContent = document.getElementById('carousel-content');
 const prevButton = document.getElementById('prev');
 const nextButton = document.getElementById('next');
 
-prevButton.addEventListener('click', () => {
+if (prevButton) {
+    prevButton.addEventListener('click', () => {
     carouselContent.scrollBy({
         left: -carouselContent.clientWidth,
         behavior: 'smooth',
     });
-});
+});}
 
-nextButton.addEventListener('click', () => {
+if (nextButton) {
+    nextButton.addEventListener('click', () => {
     carouselContent.scrollBy({
         left: carouselContent.clientWidth,
         behavior: 'smooth',
     });
-});
+});}
 const scrollToTopButton = document.getElementById("scrollToTop");
 
 window.addEventListener("scroll", () => {
@@ -35,18 +37,31 @@ window.addEventListener("scroll", () => {
     }
 });
 
-scrollToTopButton.addEventListener("click", () => {
+if (scrollToTopButton) {
+    scrollToTopButton.addEventListener("click", () => {
     window.scrollTo({
         top: 0,
         behavior: "smooth"
     });
-});
+});}
 document.querySelectorAll('.faq-question').forEach((button) => {
     button.addEventListener('click', () => {
+        document.querySelectorAll('.faq-question').forEach((otherButton) => {
+            if (otherButton !== button) {
+                otherButton.setAttribute('aria-expanded', 'false');
+                const otherAnswer = otherButton.nextElementSibling;
+                if (otherAnswer) {
+                    otherAnswer.setAttribute('aria-hidden', 'true');
+                }
+            }
+        });
+
         const expanded = button.getAttribute('aria-expanded') === 'true';
         button.setAttribute('aria-expanded', !expanded);
 
         const answer = button.nextElementSibling;
-        answer.setAttribute('aria-hidden', expanded);
+        if (answer) {
+            answer.setAttribute('aria-hidden', expanded);
+        }
     });
 });

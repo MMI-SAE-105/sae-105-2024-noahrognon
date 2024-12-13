@@ -7,7 +7,7 @@
 - PRÉNOM : Noah
 - GROUPE : C2
 - URL du site : https://timely-naiad-ad4b60.netlify.app/
--Url personalisé : cinemagny.noahrognon.fr
+-Url personalisé : https://cinemagny.noahrognon.fr
 - URL FIGMA : https://www.figma.com/design/1YU6kLlsoLYpMN4vxKnvbG/Noah_ROGNON_C2-maquette-SA%C3%89-105?node-id=0-1&t=U0EVeNNvk4Jtng3l-1
 
 ## Sujet
