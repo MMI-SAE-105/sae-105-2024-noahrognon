@@ -41,3 +41,12 @@ scrollToTopButton.addEventListener("click", () => {
         behavior: "smooth"
     });
 });
+document.querySelectorAll('.faq-question').forEach((button) => {
+    button.addEventListener('click', () => {
+        const expanded = button.getAttribute('aria-expanded') === 'true';
+        button.setAttribute('aria-expanded', !expanded);
+
+        const answer = button.nextElementSibling;
+        answer.setAttribute('aria-hidden', expanded);
+    });
+});
