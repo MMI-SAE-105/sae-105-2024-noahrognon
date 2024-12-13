@@ -1,0 +1,34 @@
+.organizers-section {
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.organizers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.organizer {
+    text-align: center;
+}
+
+.organizer img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.organizer p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}

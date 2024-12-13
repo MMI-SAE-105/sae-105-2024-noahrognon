@@ -5,6 +5,9 @@
     justify-content: center;
     align-items: center;
 }
+.section-title-info {
+    padding: 20px;
+}
 .image-info {
     width: 100%;
 }

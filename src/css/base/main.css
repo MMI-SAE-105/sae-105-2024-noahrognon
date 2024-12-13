@@ -49,7 +49,7 @@ a {
 }
 
 .section p {
-    padding: 20px;
+    margin: 20px;
     font-family: 'Lora', serif;
     font-size: 16px;
     color: #333;
@@ -113,7 +113,6 @@ body {
     font-size: 24px;
     cursor: pointer;
     display: none;
-    /* Masqué par défaut */
     justify-content: center;
     align-items: center;
     transition: opacity 0.3s ease, transform 0.3s ease;
@@ -127,4 +126,7 @@ body {
 
 .scroll-to-top:active {
     transform: scale(0.9);
+}
+.section-title {
+    padding: 20px;
 }
