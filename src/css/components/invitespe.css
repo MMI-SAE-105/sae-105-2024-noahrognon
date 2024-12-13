@@ -1,10 +1,25 @@
-.invitespe-img {
-    width: 160px;
-    padding: 20px;
-}
-.invitespe-bio  {
-    padding: 20px;
-}
 .invitespe {
-    color: yellox
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.invitespe-title {
+    color: #F0C808;
+}
+
+.invitespe-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.invitespe-img {
+    width: 150px;
+    height: auto;
+    border-radius:20px;
+}
+
+.invitespe-description {
+    text-align: justify;
 }

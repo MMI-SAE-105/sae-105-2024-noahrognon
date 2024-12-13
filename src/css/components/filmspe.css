@@ -1,0 +1,31 @@
+.filmspe-title {
+    color:#F0C808
+}
+.filmspe-img {
+    width: 250px;
+    display: block;
+    margin-left: 70px;
+}
+
+
+}
+.Bandeannonce {
+    max-width: 800px;
+    /* Limite la largeur maximale de la section */
+    margin: 0 auto;
+    /* Centre la section horizontalement */
+    text-align: center;
+    /* Centre le texte et le contenu */
+    padding: 20px;
+}
+
+.Bandeannonce-video {
+    width: 100%;
+    /* Prend toute la largeur du conteneur */
+    height: auto;
+    /* Ajuste la hauteur automatiquement pour maintenir le ratio */
+    aspect-ratio: 16 / 9;
+    /* Maintient le ratio 16:9 */
+    border: none;
+    /* Supprime les bordures */
+}

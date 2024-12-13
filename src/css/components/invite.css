@@ -1,9 +1,10 @@
 
 
-.guest-name {
+.guest-name a  {
     text-decoration: underline;
     margin: 20px;
     font-size: 18px;
+    color: black;
 }
 .guest-dates {
     margin-left: 85px;
