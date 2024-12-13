@@ -25,3 +25,4 @@ nextButton.addEventListener('click', () => {
         behavior: 'smooth',
     });
 });
+

@@ -1,0 +1,17 @@
+.main-content {
+    margin-top: 40px;
+    margin:20px;
+    
+}
+.section-title-1 {
+    background-image: url('/assets/img/festival.avif');
+    background-size: 100% auto;
+    /* Ajuste l'image pour couvrir toute la zone */
+    background-repeat: no-repeat;
+
+    padding: 20px;
+    margin: -20px;
+    height: 210px;
+    
+}
+    /* Ajoute un espace */

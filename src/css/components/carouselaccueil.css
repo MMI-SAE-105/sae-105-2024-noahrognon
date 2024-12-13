@@ -1,5 +1,3 @@
-
-
 .carousel-container {
     position: relative;
 }
@@ -43,6 +41,7 @@
     z-index: 1;
 }
 
+
 .carousel-nav #prev {
-    transform: rotate(180deg);
+    
 }

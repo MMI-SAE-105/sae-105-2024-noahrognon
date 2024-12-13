@@ -18,5 +18,14 @@
 @import "components/hero.css";
 @import "components/section.css";
 @import "components/intro.css";
-@import "components/work.css";
-@import "components/carousel.css";
+@import "components/herofestival.css";
+@import "components/carouselaccueil.css";
+@import "components/prog.css";
+@import "components/download.css";
+@import "components/filmpreview.css";
+@import "components/carousselsavoureuse.css";
+@import "components/tarifs.css";
+@import "components/localisation.css";
+@import "components/invite.css";
+@import "components/invitespe.css";
+@import "components/contact.css";

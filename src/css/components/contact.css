@@ -1,0 +1,64 @@
+/* Section de contact */
+
+
+
+/* Formulaire */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* Espacement entre les champs */
+    padding: 10px;
+}
+
+/* Labels des champs */
+.contact-form label {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    color: #999;
+    /* Gris clair */
+    text-align: left;
+    margin-bottom: -5px;
+}
+
+/* Champs de formulaire */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #999;
+    /* Ligne grise */
+    background: transparent;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    color: #333;
+    padding: 5px 0;
+}
+
+.contact-form textarea {
+    resize: none;
+    /* Désactive le redimensionnement */
+    height: 100px;
+    /* Hauteur fixe */
+}
+
+/* Style du placeholder */
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    color: #999;
+    /* Gris clair */
+}
+
+/* Bouton */
+.contact-form .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    /* Centre le bouton */
+    padding: 10px 20px;
+    
+}

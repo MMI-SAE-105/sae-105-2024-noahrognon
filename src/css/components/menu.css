@@ -130,19 +130,24 @@ display: block;
     top: 10px;
 }
 
-/* Technique pour transformer les 3 barres du bouton de menu en croix
-Ne pas oublier d'ajouter une transition plus haut pour l'animation */
-.menu-btn[aria-expanded="true"] .menu-btn__bar,
-.menu-btn[aria-expanded="true"] .menu-btn__bar::before,
-.menu-btn[aria-expanded="true"] .menu-btn__bar::after {
-    transform: rotate(135deg);
-    background: white);
+/* Quand le menu est ouvert */
+.menu-btn[aria-expanded="true"] .menu-btn__bar {
+    transform: rotate(-45deg);
+    /* Incline la barre centrale */
 }
 
-.menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::before {
+    transform: rotate(-90deg);
+    /* Barre supérieure devient diagonale orientée pour créer une flèche */
+    top: 16px;
+    left: -15px;
+    /* Ajustement horizontal pour la flèche */
+}
+
 .menu-btn[aria-expanded="true"] .menu-btn__bar::after {
     transform: rotate(90deg);
-    top: 0;
-    
+    /* Barre inférieure devient diagonale orientée pour créer une flèche */
+    top: 16px;
+    left: -15px;
+    /* Ajustement horizontal pour la flèche */
 }
-

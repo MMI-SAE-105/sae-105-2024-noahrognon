@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 h1 {
-    font-family: Playfair Display, serif;
+    font-family: Playfair Display;
     font-weight: bold;
     color: #F0C808;
     font-size:36px ;
@@ -30,7 +30,8 @@ a{
     font-size: 13px;
 }
 .section {
-    padding: 40px 20px;
+    
+
     /* Espacement intérieur pour la section */
     margin: 20px auto;
     /* Centrage de la section */
@@ -47,10 +48,12 @@ a{
     /* Jaune vif pour le titre */
     margin-bottom: 20px;
     /* Espacement sous le titre */
+    padding: 20px;
 }
 
 /* Texte de la section */
 .section p {
+    padding: 20px;
     font-family: 'Lora', serif;
     font-size: 16px;
     color: #333;
@@ -91,6 +94,8 @@ a{
         transition: background-color 0.3s ease, transform 0.2s ease;
         /* Animation douce */
         
+        
+        
     }
    .button__fleche {
        width: 15px;
@@ -114,4 +119,12 @@ a{
     }
 body {
     background-color: #F5F5DC ;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    /* Centre horizontalement */
+    align-items: center;
+    /* Centre verticalement */
+    
 }

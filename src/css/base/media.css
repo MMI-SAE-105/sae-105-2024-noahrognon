@@ -7,3 +7,21 @@
     justify-content: center;
     align-items: center; /* Ajustez cette valeur selon vos besoins */
 }
+.image-info {
+    width: 100%;
+}
+.social-media img{
+    width: 40px;
+    /* Ajustez selon vos préférences */
+    height: auto;
+    /* Maintient le ratio de l'image */
+    transition: transform 0.3s ease;
+    /* Ajoute une animation pour un effet au survol */
+    margin-right: 30px;
+    
+}
+.mail-contact {
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+}

@@ -1,0 +1,30 @@
+/* Liste des tarifs */
+.tarifs-list {
+    list-style: none;
+    /* Supprime les puces */
+    padding: 0;
+    /* Retire les marges internes */
+}
+
+.tarif-item {
+    font-weight: bold;
+    /* Met les titres des tarifs en gras */
+    margin-top: 20px;
+    /* Espacement entre les tarifs */
+}
+
+.tarifs-list p {
+    margin: 5px 0;
+    /* Espacement entre les descriptions */
+    line-height: 1.6;
+    /* Hauteur de ligne pour lisibilité */
+}
+
+.tarif-price {
+    color: #f0c808;
+    /* Couleur jaune pour les prix */
+    font-weight: bold;
+    /* Met les prix en gras */
+    margin-top: 5px;
+    /* Espacement au-dessus du prix */
+}
