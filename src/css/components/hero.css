@@ -1,39 +1,30 @@
-/* Style général */
 body,
 html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
+
 h1 {
     font-family: Playfair Display, serif;
     color: #fff;
 }
 
-
 main {
     margin-top: -200px;
-    /* Égale à la hauteur du header */
 }
 
-/* Section Hero */
 .hero {
     background-image: url('/assets/img/image9.avif');
-    /* Remplacez par l'URL de votre image */
     background-size: 100%;
-    /* Dimensions fixes */
     background-repeat: no-repeat;
-    /* Évite la répétition de l'image */
     background-position: center;
-    /* Centrer l'image */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: #fff;
-    /* Couleur blanche pour le texte */
 }
 
 .hero__title {
@@ -50,14 +41,12 @@ main {
 }
 
 .hero__btn {
-    font-family:poppins;
-    font-weight:600 ;
+    font-family: poppins;
+    font-weight: 600;
     font-size: 13px;
     padding: 10px 20px;
     background-color: #F5F5DC;
-    /* Jaune clair */
     border: 2px solid #fdd835;
-    /* Encadrement jaune */
     border-radius: 5px;
     color: #000;
     cursor: pointer;

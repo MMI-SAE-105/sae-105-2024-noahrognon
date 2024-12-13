@@ -34,81 +34,61 @@
     font-size: 0.875rem;
 }
 
-
 .header__logo-aft {
     display: block;
     position: relative;
     left: 45px;
-    /* Déplace le logo vers la gauche */
     width: 80px;
     height: auto;
     top: -50px;
     z-index: 10;
 }
+
 .header__title-aft {
-display: block;
+    display: block;
     margin: 0 auto;
     top: -95px;
-
-    /* Centre horizontalement */
     width: 80px;
-    /* Ajustez la taille selon votre préférence */
     height: auto;
-    /* Garde le ratio de l'image */
     position: relative;
-    /* Changez en 'absolute' si nécessaire */
     bottom: 20px;
-    /* Ajustez selon l'emplacement désiré */
     color: black;
     font-size: 20px;
 }
+
 .menu__social-network {
     display: flex;
-    /* Les éléments restent alignés en ligne */
     gap: 20px;
-    /* Espacement entre les icônes */
     justify-content: center;
-    /* Centre horizontalement les icônes */
     margin-top: -70px;
-    /* Ajustez la distance par rapport au haut */
     margin-bottom: 20px;
-    /* Ajustez la distance par rapport au bas */
     position: relative;
-    /* Permet de mieux gérer la position */
-}
-.menu__social-network img {
-    width: 40px;
-    /* Ajustez selon vos préférences */
-    height: auto;
-    /* Maintient le ratio de l'image */
-    transition: transform 0.3s ease;
-    /* Ajoute une animation pour un effet au survol */
 }
 
+.menu__social-network img {
+    width: 40px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
 
 .menu-btn {
     position: absolute;
-    /* reste absolu */
     top: 35px;
-    /* alignez-le avec le padding de .header */
     right: 40px;
-    /* même valeur que le padding de droite du header */
     width: 30px;
     height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .menu-btn {
     background: transparent;
-    /* Supprime tout fond */
     border: none;
-    /* Supprime toute bordure */
     padding: 0;
-    /* Supprime les espaces internes */
     margin: 0;
-    /* Supprime les marges externes */
 }
+
 .menu-btn__bar,
 .menu-btn__bar::before,
 .menu-btn__bar::after {
@@ -130,24 +110,18 @@ display: block;
     top: 10px;
 }
 
-/* Quand le menu est ouvert */
 .menu-btn[aria-expanded="true"] .menu-btn__bar {
     transform: rotate(-45deg);
-    /* Incline la barre centrale */
 }
 
 .menu-btn[aria-expanded="true"] .menu-btn__bar::before {
     transform: rotate(-90deg);
-    /* Barre supérieure devient diagonale orientée pour créer une flèche */
     top: 16px;
     left: -15px;
-    /* Ajustement horizontal pour la flèche */
 }
 
 .menu-btn[aria-expanded="true"] .menu-btn__bar::after {
     transform: rotate(90deg);
-    /* Barre inférieure devient diagonale orientée pour créer une flèche */
     top: 16px;
     left: -15px;
-    /* Ajustement horizontal pour la flèche */
 }

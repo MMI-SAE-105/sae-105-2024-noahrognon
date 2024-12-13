@@ -1,18 +1,11 @@
 .img-download {
     width: 20px;
-    /* Ajuste la taille de l'image */
     height: auto;
-    /* Conserve les proportions de l'image */
     vertical-align: middle;
-    /* Aligne l'image avec le texte */
     margin-right: 8px;
-    /* Ajoute un espace entre l'image et le texte */
 }
 
 .section p {
     display: flex;
-    /* Aligne le texte et l'image sur la même ligne */
     align-items: center;
-    /* Centre verticalement */
 }
-

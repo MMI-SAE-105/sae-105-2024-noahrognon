@@ -1,55 +1,38 @@
-/* Conteneur principal du carousel */
 .carousel-salle {
     position: relative;
     margin: 20px 0;
 }
 
-/* Conteneur pour les éléments du carousel */
 .carousel-container-salle {
     display: flex;
     gap: 16px;
-    /* Espace entre les images */
     overflow-x: scroll;
-    /* Permet le défilement horizontal */
     scroll-snap-type: x mandatory;
-    /* Active le snapping pour un défilement fluide */
     scroll-behavior: smooth;
-    /* Défilement fluide */
     margin-left: 10px;
     margin-right: 10px;
 }
 
-/* Chaque élément du carousel */
 .carousel-item-salle {
     flex: 0 0 100%;
-    /* Chaque item occupe 100% de la largeur du conteneur */
     scroll-snap-align: start;
-    /* Aligne chaque item au début lors du défilement */
 }
 
-/* Image des items */
 .carousel-item-salle img {
     display: block;
     width: 100%;
-    /* Forcer toutes les images à occuper 100% de la largeur du conteneur */
     height: 200px;
-    /* Fixer une hauteur uniforme pour toutes les images */
     object-fit: cover;
-    /* Ajuster le contenu de l'image pour remplir la zone définie */
     border-radius: 8px;
-    /* Optionnel : coins arrondis pour un design plus fluide */
 }
 
-/* Navigation du carousel */
 .carousel-nav-salle {
     display: flex;
     justify-content: center;
-    /* Centre les boutons horizontalement */
     gap: 8px;
     margin-top: 16px;
 }
 
-/* Boutons de navigation */
 .carousel-nav-salle button {
     width: 2rem;
     height: 2rem;
@@ -64,4 +47,3 @@
     font-size: 1rem;
     font-weight: bold;
 }
-

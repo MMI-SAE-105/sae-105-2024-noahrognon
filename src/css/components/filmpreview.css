@@ -2,20 +2,14 @@
     
 }
 .section-title-film a {
-    
     color: inherit;
-    /* Utilise la couleur de l'élément parent (le `<h2>`) */
     font-size: inherit;
-    /* Hérite de la taille du texte du parent */
     font-weight: inherit;
-    /* Hérite de la graisse du texte du parent */
 }
 .section-film-img-wrapper {
     display: flex;
     justify-content: center;
-    /* Centre horizontalement */
     align-items: center;
-    /* Centre verticalement si nécessaire */
 }
 
 .section-film-img {

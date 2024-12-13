@@ -1,51 +1,31 @@
-/* Conteneur principal de la carte */
 .localisation-map {
     position: relative;
-    /* Nécessaire pour positionner le ping */
     margin: 20px auto;
-    /* Centre la carte */
     max-width: 800px;
-    /* Limite la largeur de la carte */
     border-radius: 8px;
-    /* Coins arrondis */
     overflow: hidden;
-    /* Coupe les éléments débordants */
 }
 
-/* Image de la carte */
 .image-map {
     display: block;
     width: 100%;
-    /* L'image occupe toute la largeur */
     height: auto;
-    /* Conserve les proportions */
 }
 
-/* Conteneur pour le ping */
 .ping-container {
     position: absolute;
-    /* Permet de placer le ping sur l'image */
     top: 60%;
-    /* Ajuste la position verticale */
     left: 40%;
-    /* Ajuste la position horizontale */
     transform: translate(-50%, -100%);
-    /* Centre l'icône et ajuste son placement */
 }
 
-/* Icône du ping */
 .ping-icon {
     width: 50px;
-    /* Taille de l'icône */
     height: auto;
-    /* Conserve les proportions */
     animation: bounce 2s infinite;
-    /* Animation pour donner un effet de rebond */
 }
 
-/* Animation du ping */
 @keyframes bounce {
-
     0%,
     20%,
     50%,
@@ -53,20 +33,15 @@
     100% {
         transform: translate(-50%, -110%);
     }
-
     40% {
         transform: translate(-50%, -120%);
     }
-
     60% {
         transform: translate(-50%, -115%);
     }
 }
 
-/* Bouton sous la carte */
 .localisation-map a.button {
     margin: 10px;
     margin-left: 70px;
-    
-    
 }

@@ -1,130 +1,101 @@
 * {
     box-sizing: border-box;
 }
+
 h1 {
     font-family: Playfair Display;
     font-weight: bold;
     color: #F0C808;
-    font-size:36px ;
+    font-size: 36px;
 }
+
 h2 {
     font-family: Lora, serif;
     font-size: 30px;
     font-weight: 600;
     color: #F0C808;
 }
+
 h3 {
     font-family: Raleway, serif;
     font-size: 24px;
     font-weight: medium;
     color: #F0C808;
 }
+
 p {
     font-family: merriweather;
     font-weight: regular;
     font-size: 17px;
 }
-a{
+
+a {
     font-family: lora;
     font-weight: italic;
     font-size: 13px;
 }
-.section {
-    
 
-    /* Espacement intérieur pour la section */
+.section {
     margin: 20px auto;
-    /* Centrage de la section */
     max-width: 800px;
-    /* Limite la largeur de la section */
-    
 }
 
-/* Titre de la section */
 .section h2 {
     font-family: 'Poppins', serif;
     font-size: 28px;
     color: #f0c808;
-    /* Jaune vif pour le titre */
     margin-bottom: 20px;
-    /* Espacement sous le titre */
     padding: 20px;
 }
 
-/* Texte de la section */
 .section p {
     padding: 20px;
     font-family: 'Lora', serif;
     font-size: 16px;
     color: #333;
-    /* Texte noir */
     line-height: 1.6;
-    /* Hauteur de ligne pour lisibilité */
     margin-bottom: 30px;
-    /* Espacement sous le paragraphe */
 }
+
 .button {
-    
-        display: inline-flex;
-        /* Pour aligner l'icône et le texte */
-        align-items: center;
-        /* Centrer verticalement */
-        justify-content: center;
-        /* Centrer horizontalement */
-        padding: 10px 20px;
-        background-color: #f5f5f0;
-        /* Couleur de fond blanc cassé */
-        border: 8px solid #b2d7b3;
-        /* Bordure verte */
-        border-radius: 5px;
-        /* Coins arrondis */
-        font-family: poppins;
-        font-weight: 600;
-        /* Police générale */
-        font-size: 13px;
-        /* Taille du texte */
-        font-weight: bold;
-        /* Texte en gras */
-        color: #000;
-        /* Couleur du texte */
-        text-decoration: none;
-        /* Supprime le soulignement des liens */
-        cursor: pointer;
-        /* Change le curseur au survol */
-        transition: background-color 0.3s ease, transform 0.2s ease;
-        /* Animation douce */
-        
-        
-        
-    }
-   .button__fleche {
-       width: 15px;
-       /* Largeur de la flèche */
-       height: auto;
-       /* Ajuste la hauteur proportionnellement à la largeur */
-       margin-right: 8px;
-       /* Espacement entre la flèche et le texte */
-   }
-
-    .button:hover {
-        background-color: #e0f3e0;
-        /* Couleur légèrement plus foncée au survol */
-        transform: scale(1.05);
-        /* Grossissement au survol */
-    }
-
-    .button:active {
-        transform: scale(0.95);
-        /* Rétrécissement lors du clic */
-    }
-body {
-    background-color: #F5F5DC ;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #f5f5f0;
+    border: 8px solid #b2d7b3;
+    border-radius: 5px;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 13px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
+
+.button__fleche {
+    width: 15px;
+    height: auto;
+    margin-right: 8px;
+}
+
+.button:hover {
+    background-color: #e0f3e0;
+    transform: scale(1.05);
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+body {
+    background-color: #F5F5DC;
+}
+
 .button-container {
     display: flex;
     justify-content: center;
-    /* Centre horizontalement */
     align-items: center;
-    /* Centre verticalement */
-    
 }
